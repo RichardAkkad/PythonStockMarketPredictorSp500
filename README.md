@@ -2,8 +2,10 @@ S&P 500 Stock Market Predictor
 
 About Me
 
-I come from a mathematics and statistics background, which has always been the foundation of how I approach problem solving. More recently, I have been focused on web development and building websites, but I wanted to return to something more analytical and data-driven. This project gave me the opportunity to combine my statistical background with machine learning and Python (which is the first language I first started off learning), which was a great challenge.
+I come from a mathematics and statistics background, which has always been the foundation of how I approach problem solving. More recently, I have been focused on web development and building websites, but I wanted to return to something more analytical and data-driven. I have always been interested in how the stock market operates and I was keen to learn how to make predictions on the stock market. This project gave me the opportunity to combine my statistical background with machine learning and Python (which is the first language I first started off learning), which was a great challenge.
+
 Project Overview
+
 This project uses historical S&P 500 index data to predict whether the market will go up or down the following day. It was built entirely in JupyterLab using Python and a range of data science libraries.
 The data was downloaded using yfinance, which pulls historical daily price data for the S&P 500 index (ticker: ^GSPC) going back to 1990 — over 9,000 trading days in total.
 
@@ -29,6 +31,4 @@ The historical data also showed that the S&P 500 goes up roughly 48.4% of tradin
 
 Next Steps
 
-Add more predictors such as RSI and moving average crossovers
-Test other models such as XGBoost or Logistic Regression
-Improve backtesting with more sophisticated evaluation metrics
+A natural next step would be to narrow the focus from the S&P 500 index as a whole to predicting the price movement of an individual company. Analysing a single stock would allow for more targeted feature engineering, such as incorporating company-specific financial metrics, earnings reports and sector trends, which could potentially lead to a more accurate and meaningful model.Add more predictors such as RSI and moving average crossovers. I would also like to test other models such as XGBoost or Logistic Regression and improve backtesting with more sophisticated evaluation metrics.
