@@ -2,7 +2,7 @@ S&P 500 Stock Market Predictor
 
 About Me
 
-I come from a mathematics and statistics background, which has always been the foundation of how I approach problem solving. More recently, I have been focused on web development and building websites, but I wanted to return to something more analytical and data-driven. This project gave me the opportunity to combine my statistical background with machine learning and Python (which is the language I first started off learning when I learnt programming), which was a great challenge.
+I come from a mathematics and statistics background, which has always been the foundation of how I approach problem solving. More recently, I have been focused on web development and building websites, but I wanted to return to something more analytical and data-driven. This project gave me the opportunity to combine my statistical background with machine learning and Python (which is the first language I first started off learning), which was a great challenge.
 Project Overview
 This project uses historical S&P 500 index data to predict whether the market will go up or down the following day. It was built entirely in JupyterLab using Python and a range of data science libraries.
 The data was downloaded using yfinance, which pulls historical daily price data for the S&P 500 index (ticker: ^GSPC) going back to 1990 — over 9,000 trading days in total.
